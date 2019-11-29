@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ee93a28-31ea-4750-bc75-48e69d1a9e69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentServicesSpring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fintechx/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fintechx/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fintechx/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fintechx/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fintechx/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fintechx/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fintechx/controller/StudentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fintechx/dao/StudentDao$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fintechx/dao/StudentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fintechx/entity/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fintechx/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fintechx/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fintechx/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fintechx/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fintechx/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fintechx/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fintechx/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fintechx/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fintechx/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fintechx/dao/StudentDao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fintechx/dao/StudentDao$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fintechx/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fintechx/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fintechx/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fintechx/service/StudentService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +18,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +62,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.68483067" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.fintechx.dao" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,10 +111,22 @@
       <option name="presentableId" value="Default" />
       <updated>1574944774457</updated>
       <workItem from="1574944778217" duration="6036000" />
+      <workItem from="1574968631947" duration="12989000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,6 +1,7 @@
 package com.fintechx.dao;
 
 import com.fintechx.entity.Student;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
@@ -8,7 +9,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Repository
-public class StudentDao {
+@Qualifier("DummyDa ta")
+public class StudentDao implements StudentDataAccessInterface {
     private static Map<Integer, Student> students;
     static{
         students = new HashMap<Integer, Student>(){
@@ -20,11 +22,33 @@ public class StudentDao {
             }
         };
     }
+    @Override
     public Collection<Student>getAllStudents(){
         return this.students.values();
     }
 
+    @Override
     public Student getStudentByID(int ID){
         return this.students.get(ID);
+    }
+
+    @Override
+    public void deleteStudentByID(int ID){
+        this.students.remove(ID);
+    }
+
+    @Override
+    public void updateStudent(Student student){
+        Student updateStudent = students.get(student.getId());
+        updateStudent.setCourse(student.getCourse());
+        updateStudent.setName(student.getName());
+        updateStudent.setEmail(student.getEmail());
+        updateStudent.setPhone(student.getPhone());
+        this.students.put(student.getId(),student);
+    }
+
+    @Override
+    public void addStudent(Student student){
+        this.students.put(student.getId(),student);
     }
 }
