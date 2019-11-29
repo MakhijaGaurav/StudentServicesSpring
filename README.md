@@ -10,3 +10,5 @@
 
 # RUNNABLE JAR AVAILABLE IN TARGET FOLDER
 'StudentServices-1.0-SNAPSHOT.jar'
+
+Rest APIs for Student Service Management
